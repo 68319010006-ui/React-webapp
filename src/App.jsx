@@ -13,7 +13,10 @@ function App() {
       <Route path="*" element={<NotFound />} />{/*path= คือหน้าที่ไม่ได้ระบุ path จะให้ขึ้น404 */}
     </Route>)
   );
-  return <RouterProvider router={router}/>;
+  return <>
+    {/* hello */}
+    <RouterProvider router={router}/>
+  </>;
 }
 
 export default App;
